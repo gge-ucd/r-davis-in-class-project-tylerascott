@@ -7,6 +7,11 @@ s <- livecode::serve_file(port = 8080)
 paste('ngrok http' ,s$url)
 #paste this output into terminal
 
+
+http://168.150.117.162:8080  
+
+
+
 paste('ngrok http -hostname=www.rdaviscode.com', s$url)
 #ngrok.io address is global access url
 #this should be tyler's live code demo
